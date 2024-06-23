@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import nik from "../assets/nik.jpeg";
+import nik1 from "../assets/nik1.jpeg";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -15,9 +15,10 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 8 years of experience building and desgining software.
+          Aspiring Computer Science and Engineering graduate with a strong foundation in Web Development & Data Structure & Algorithm, seeking to leverage academic knowledge and project experience in a dynamic
+tech environment to develop innovative solutions and grow professionally.
             Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+            React, Tailwind, Javascript and Mongoose...
           </p>
           <div>
             <Link
@@ -35,7 +36,7 @@ const Home = () => {
         </div>
         <div>
           <img
-            src={nik}
+            src={nik1}
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
